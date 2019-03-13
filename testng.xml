@@ -6,11 +6,14 @@
 </listeners>
   <test thread-count="5" name="Test">
   <packages>
-  <package name="TestRunner"></package>
+  <package name="Features"></package>
+  <package name="StepDefinations"></package>
   </packages>
     <classes>
       <class name="paytmpakage.paytmproject.AppTest"/>
       <class name="resources.base"/>
+      <class name="TestRunner.testRunner"></class>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
