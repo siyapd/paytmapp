@@ -5,11 +5,9 @@
 <listener class-name="listeners.listeners"></listener>
 </listeners>
   <test thread-count="5" name="Test">
-    <packages>
-    
-    <package name="StepDefinations"></package>
-    <package name="TestRunner"></package>
-    <package name="resources"></package>
-    </packages>
+    <classes>
+      <class name="paytmpakage.paytmproject.AppTest"/>
+      <class name="resources.base"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
