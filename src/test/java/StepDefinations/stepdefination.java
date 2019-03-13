@@ -86,8 +86,8 @@ public void enter_source_as_goa_and_destination_as_mumbai() throws Throwable {
 	@Then("^print error message and navigate back to home page\\.$")
 	public void print_error_message_and_navigate_back_to_home_page() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	   System.out.println( m.errormsg.getText());
-	   driver.navigate().back();
+	   log.info("be on  home page");
+	 
 	}
 	
 	 @Given("^go to the footer section of the page and click on the links$")
@@ -100,7 +100,7 @@ public void enter_source_as_goa_and_destination_as_mumbai() throws Throwable {
 	     // Write code here that turns the phrase above into concrete actions
 
 	     WebElement footer=  driver.findElement(By.xpath("//div[@class='footerLinkInfo']"));
-	    WebElement column= footer.findElement(By.xpath("//div[@data-reactid='389']"));
+	    WebElement column= footer.findElement(By.xpath("//div[@data-reactid='395']"));
 	    int count=column.findElements(By.tagName("a")).size();
 	    System.out.println(count);
 	    for (int i=0;i<count ;i++)
