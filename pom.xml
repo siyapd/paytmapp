@@ -55,7 +55,7 @@
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>
     <version>6.8.8</version>
-    <scope>test</scope>
+    <scope>compile</scope>
 </dependency>
 <!-- https://mvnrepository.com/artifact/info.cukes/cucumber-junit -->
 <dependency>
